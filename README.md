@@ -20,6 +20,7 @@
 <div>
   <h2>📚 Resource List</h2>
 
+ <div>
   <table>
     <thead>
       <tr>
@@ -34,11 +35,16 @@
       <tr>
         <td>Assignment</td>
         <td>Web Programming Assignment</td>
-        <td>.html,css javascript</td>
-        <td   <span title="This folder contains web programming assignments with detailed project files and screenshots.">
-    
-  </span>Creating user Registration Form</td>
-        <td><a href="./notes/data-structures.pdf">View</a></td>
+        <td>.html, .css, .js</td>
+        <td>
+          <details>
+            <summary>Creating user registration form</summary>
+            <br/>
+            <img src="./Assignment/user-registration.png" alt="Registration Form" width="300" />
+            <p>This assignment includes a fully working HTML/CSS-based user registration form with validation and layout formatting.</p>
+          </details>
+        </td>
+        <td><a href="./Assignment/">View Folder</a></td>
       </tr>
       <tr>
         <td>LaTeX Template</td>
