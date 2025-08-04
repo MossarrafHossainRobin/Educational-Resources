@@ -63,7 +63,7 @@
   <pre>
 education-resources/
 ├── Assignment/
-│   └── <a href="./Assignment/index.html">index.html</a>
+    └── <a href="./Assignment/index.html">index.html</a>
     └── <a href="./Assignment/style.css">style.css</a>
     └── <a href="./Assignment/script.js">script.js</a>
 
