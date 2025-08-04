@@ -33,7 +33,7 @@
   </thead>
   <tbody>
     <tr>
-      <td>📄 Assignment</td>
+      <td> Assignment</td>
       <td>Web Programming Assignment</td>
       <td>
         <img src="https://img.shields.io/badge/HTML-e34c26?style=flat-square&logo=html5&logoColor=white" alt="HTML" />
@@ -62,16 +62,11 @@
   <h2>📁 Project Structure</h2>
   <pre>
 education-resources/
-├── notes/
-│   └── data-structures.pdf
-├── templates/
-│   └── report-template.tex
-├── images/
-│   └── binary-tree.png
-├── cheatsheets/
-│   └── linux.pdf
-├── labs/
-│   └── lab-manual.zip
+├── Assignment/
+│   └── <a href="./Assignment/index.html">index.html</a>
+    └── style.css
+    └── script.js
+
 └── README.md
   </pre>
 </div>
