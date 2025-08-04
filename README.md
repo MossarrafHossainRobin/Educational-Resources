@@ -36,7 +36,7 @@
         <td>Web Programming Assignment</td>
         <td>.html,css javascript</td>
         <td   <span title="This folder contains web programming assignments with detailed project files and screenshots.">
-    assignment
+    
   </span>Creating user Registration Form</td>
         <td><a href="./notes/data-structures.pdf">View</a></td>
       </tr>
