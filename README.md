@@ -72,19 +72,7 @@
 
 <hr />
 
-<div>
-  <h2>🧑‍🏫 Educational Usage Only</h2>
-  <p>
-    This repository is licensed under the <strong>MIT License with additional restrictions</strong>.
-    All files are intended for <strong>educational and academic use only</strong>. You may:
-  </p>
-  <ul>
-    <li>✅ Use in university coursework, labs, and personal learning</li>
-    <li>✅ Modify and adapt for academic projects</li>
-  </ul>
-</div>
 
-<hr />
 
 <div>
   <h2>📁 Project Structure</h2>
@@ -105,7 +93,19 @@ education-resources/
 </div>
 
 <hr />
+<div>
+  <h2>🧑‍🏫 Educational Usage Only</h2>
+  <p>
+    This repository is licensed under the <strong>MIT License with additional restrictions</strong>.
+    All files are intended for <strong>educational and academic use only</strong>. You may:
+  </p>
+  <ul>
+    <li>✅ Use in university coursework, labs, and personal learning</li>
+    <li>✅ Modify and adapt for academic projects</li>
+  </ul>
+</div>
 
+<hr />
 <div align="center">
   <h2>👨‍💻 Author</h2>
   <p><strong>Mossarraf Hossain Robin</strong></p>
