@@ -83,7 +83,7 @@ education-resources/
     └── <a href="./Assignment/script.js">script.js</a>
     └── <a href="./Assignment/_Web Programming Assignment .pdf">Web Programming Assignment .pdf</a>
 └── Templates
-     └── <a href="./Templates/Latex-Lab Project Report Template (CSE).zip">Latex-Lab Project Report Template (CSE).zip</a>
+     └── <a href="./Templates">Latex-Lab Project Report Template (CSE).zip</a>
 └── README.md
   </pre>
 </div>
