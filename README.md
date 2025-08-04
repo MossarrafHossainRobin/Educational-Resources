@@ -76,7 +76,7 @@
 <div>
   <h2>📁 Project Structure</h2>
   <pre>
-education-resources/
+educational-resources/
 ├── Assignment/
     └── <a href="./Assignment/index.html">index.html</a>
     └── <a href="./Assignment/style.css">style.css</a>
@@ -84,6 +84,7 @@ education-resources/
     └── <a href="./Assignment/_Web Programming Assignment .pdf">Web Programming Assignment .pdf</a>
 └── Templates
      └── <a href="./Templates">Latex-Lab Project Report Template (CSE).zip</a>
+     └── <a href="./Templates">Latex-Lab Project Report Template (CSE).pdf</a>
 └── README.md
   </pre>
 </div>
