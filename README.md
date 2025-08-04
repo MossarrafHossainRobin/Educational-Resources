@@ -24,7 +24,7 @@
     <thead>
       <tr>
         <th>📁 Type</th>
-        <th>📌 Title/Name</th>
+        <th>📌 Title</th>
         <th>📄 Format</th>
         <th>📝 Description</th>
         <th>🔗 Link</th>
