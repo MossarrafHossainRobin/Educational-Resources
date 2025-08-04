@@ -33,47 +33,24 @@
     </thead>
     <tbody>
       <tr>
-        <td>Assignment</td>
-        <td>Web Programming Assignment</td>
-        <td>.html, .css, .js</td>
-        <td>
-          <details>
-            <summary>Creating user registration form</summary>
-            <br/>
-            <img src="./Assignment/user-registration.png" alt="Registration Form" width="300" />
-            <p>This assignment includes a fully working HTML/CSS-based user registration form with validation and layout formatting.</p>
-          </details>
-        </td>
-        <td><a href="./Assignment/">View Folder</a></td>
-      </tr>
-      <tr>
-        <td>LaTeX Template</td>
-        <td>University Report Template</td>
-        <td>.tex</td>
-        <td>Academic report writing template (IEEE-style)</td>
-        <td><a href="./templates/report-template.tex">Download</a></td>
-      </tr>
-      <tr>
-        <td>Diagram</td>
-        <td>Binary Tree Visualization</td>
-        <td>.png</td>
-        <td>Illustrative diagram for understanding trees</td>
-        <td><a href="./images/binary-tree.png">View</a></td>
-      </tr>
-      <tr>
-        <td>Cheat Sheet</td>
-        <td>Linux Commands</td>
-        <td>.pdf</td>
-        <td>Commonly used terminal commands for labs</td>
-        <td><a href="./cheatsheets/linux.pdf">View</a></td>
-      </tr>
-      <tr>
-        <td>ZIP Archive</td>
-        <td>Lab Manual (All Semesters)</td>
-        <td>.zip</td>
-        <td>Includes source codes and lab instructions</td>
-        <td><a href="./labs/lab-manual.zip">Download</a></td>
-      </tr>
+  <td>📄 Assignment</td>
+  <td>Web Programming Assignment</td>
+  <td>
+    <img src="https://img.shields.io/badge/HTML-e34c26?style=flat-square&logo=html5&logoColor=white" alt="HTML" />
+    <img src="https://img.shields.io/badge/CSS-264de4?style=flat-square&logo=css3&logoColor=white" alt="CSS" />
+    <img src="https://img.shields.io/badge/Bootstrap-7952b3?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+    <img src="https://img.shields.io/badge/JavaScript-f7df1e?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+  </td>
+  <td>Creating user registration form</td>
+  <td>
+    <a href="./Assignment/" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/Download-181717?style=for-the-badge&logo=github&logoColor=white" alt="Download" />
+    </a>
+  </td>
+</tr>
+
+     
+    
     </tbody>
   </table>
 </div>
