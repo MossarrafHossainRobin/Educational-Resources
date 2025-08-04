@@ -81,8 +81,6 @@
   <ul>
     <li>✅ Use in university coursework, labs, and personal learning</li>
     <li>✅ Modify and adapt for academic projects</li>
-    <li>❌ Not use in commercial products or services</li>
-    <li>❌ Not redistribute or resell without permission</li>
   </ul>
 </div>
 
