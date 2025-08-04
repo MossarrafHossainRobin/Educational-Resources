@@ -1,0 +1,291 @@
+/* Reset default margins */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* New softer, more engaging gradient background */
+  background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+  font-family: 'Poppins', sans-serif; /* Switched to Poppins as linked in HTML */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  background: #ffffff;
+  padding: 35px 45px; /* Increased padding */
+  border-radius: 20px; /* More rounded corners */
+  /* Enhanced, layered box shadow for depth */
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.12), 0 5px 15px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 580px; /* Slightly wider */
+  border-top: 5px solid #007bff; /* Accent color top border */
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Subtle lift on container hover */
+    box-shadow: 0 20px 55px rgba(0, 0, 0, 0.15), 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 30px; /* Increased margin */
+  color: #1A202C; /* Very dark, almost black */
+  font-weight: 700;  /* Bolder text */
+  font-size: 1.75em; /* Larger heading */
+  letter-spacing: 0.5px; /* Added letter spacing */
+}
+
+.form-group {
+  margin-bottom: 25px; /* Consistent margin */
+}
+
+/* Styles for labels */
+.form-group label {
+  display: block;
+  margin-bottom: 10px; /* Increased space */
+  font-weight: 700;   /* Bolder text */
+  color: #2D3748;    /* Dark grey, near black */
+  font-size: 1em;     /* Slightly larger label */
+}
+
+/* Styles for inputs, and select elements */
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group input[type="date"],
+.form-group input[type="tel"],
+.form-group select {
+  width: 100%;
+  padding: 14px 18px; /* Increased padding for a taller input */
+  border: 1px solid #e2e8f0; /* Lighter, softer border */
+  border-radius: 10px; /* More rounded inputs */
+  font-size: 0.95em;   /* Adjusted font size inside input */
+  background-color: #fdfdff; /* Slightly off-white background for inputs */
+  color: #2D3748;
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease;
+}
+.form-group input::placeholder {
+    color: #a0aec0; /* Softer placeholder color */
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #007bff;
+  background-color: #fff; /* Ensure background is white on focus */
+  outline: none;
+  /* Enhanced focus shadow with a subtle inner touch */
+  box-shadow: 0 0 0 3.5px rgba(0, 123, 255, 0.15), 0 1px 3px rgba(0,0,0,0.05) inset;
+}
+
+/* Form row for side-by-side elements */
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px; /* Increased gap */
+  /* Removed negative margins as individual form-groups will handle their space */
+}
+
+.form-row .form-group {
+  flex: 1;
+  min-width: calc(50% - 12.5px); /* Adjusted for new gap */
+  /* Removed padding: 0 10px; as it's not strictly needed if inputs are full width within */
+}
+
+.radio-group,
+.checkbox-group {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.radio-group .radio-label {
+  margin-right: 25px;
+  font-weight: 500; /* Normal weight for radio/checkbox text */
+  color: #4A5568; /* Slightly lighter than main labels */
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+.radio-group .radio-label input[type="radio"] {
+  margin-right: 8px;
+  accent-color: #007bff;
+  transform: scale(1.1); /* Slightly larger radio */
+}
+
+.checkbox-group label {
+  font-weight: 500;
+  color: #4A5568;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+.checkbox-group input[type="checkbox"] {
+  margin-right: 10px;
+  accent-color: #007bff;
+  transform: scale(1.1); /* Slightly larger checkbox */
+}
+.checkbox-group a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600; /* Make link slightly bolder */
+}
+.checkbox-group a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+/* Error Message Styling */
+.error {
+  color: #e53e3e; /* Slightly different red */
+  font-size: 0.85em;
+  display: block;
+  margin-top: 8px; /* More space */
+  font-weight: 600; /* Bolder error text */
+  padding-left: 5px;
+}
+/* Optional: Icon before error message with better alignment */
+.error::before {
+  content: "•"; /* Using a bullet point for a cleaner look */
+  margin-right: 6px;
+  font-weight: bold;
+  /* Or use an SVG/Font Icon here for more advanced icons */
+}
+
+/* Submit Button Styling */
+.submit-btn {
+  width: 100%;
+  padding: 15px 20px; /* More padding */
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%); /* Gradient background */
+  color: white;
+  font-weight: 700; /* Bolder */
+  font-size: 1.05em;
+  text-transform: uppercase; /* Uppercase text */
+  letter-spacing: 0.8px;   /* Letter spacing for uppercase */
+  border: none;
+  border-radius: 10px; /* More rounded */
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.25s ease-out, box-shadow 0.3s ease-out;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  /* Enhanced default shadow */
+  box-shadow: 0 5px 18px rgba(0, 123, 255, 0.25);
+}
+
+.submit-btn::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0.2); /* Slightly less opaque light */
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: width 0.5s cubic-bezier(0.22, 1, 0.36, 1), /* Smoother cubic-bezier */
+              height 0.5s cubic-bezier(0.22, 1, 0.36, 1),
+              opacity 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+  z-index: -1;
+}
+
+.submit-btn:hover {
+  /* Keep gradient but could adjust it slightly if needed, or rely on transform/shadow */
+  background: linear-gradient(135deg, #0069d9 0%, #004085 100%);
+  transform: translateY(-4px) scale(1.01); /* More pronounced lift and slight scale */
+  box-shadow: 0 8px 25px rgba(0, 91, 179, 0.35); /* Deeper shadow on hover */
+}
+
+.submit-btn:hover::before {
+  width: 300%;
+  height: 300%;
+  opacity: 1;
+  animation: lightPulse 0.7s ease-out forwards; /* Keep existing animation */
+}
+
+@keyframes lightPulse { /* No change needed, but here for completeness */
+  0% { width: 0; height: 0; opacity: 0.3; }
+  50% { opacity: 0.1; } /* Adjusted mid-opacity for subtlety */
+  100% { width: 300%; height: 300%; opacity: 0; }
+}
+
+.submit-btn:active {
+  transform: translateY(-1px) scale(0.99); /* Slight press down */
+  background: linear-gradient(135deg, #004085 0%, #00274f 100%);
+  box-shadow: 0 3px 10px rgba(0, 64, 133, 0.2);
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 20px; /* Increased margin-bottom */
+  width: 90px; /* Slightly larger if used */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    margin: 20px;
+    padding: 30px; /* Adjusted padding */
+    border-top-width: 4px; /* Slightly thinner top border */
+  }
+  .container h2 {
+      font-size: 1.6em;
+  }
+  .form-row {
+    flex-direction: column;
+    gap: 0;
+  }
+  .form-row .form-group {
+    min-width: 100%;
+    margin-bottom: 25px;
+  }
+  .form-row .form-group:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 15px;
+  }
+  .container {
+    padding: 25px 20px; /* Adjusted padding */
+    border-radius: 16px; /* Slightly less rounding for smaller screens */
+  }
+  .container h2 {
+    font-size: 1.45em;
+    margin-bottom: 25px;
+  }
+  .form-group label {
+      font-size: 0.95em;
+      margin-bottom: 8px;
+  }
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="password"],
+  .form-group input[type="date"],
+  .form-group input[type="tel"],
+  .form-group select {
+    padding: 12px 15px; /* Adjusted padding for smaller inputs */
+    font-size: 0.9em;
+  }
+  .submit-btn {
+    padding: 14px 18px;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+  }
+  .error {
+      font-size: 0.8em;
+      margin-top: 6px;
+  }
+}

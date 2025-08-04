@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>User Registration Form</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+<body>
+  <div class="container">
+    <h2>User Registration Form</h2>
+    <form id="registrationForm">
+      <div class="form-group">
+        <label for="fullName">Full Name</label>
+        <input type="text" id="fullName" name="fullName" required placeholder="Enter your full name" />
+        <small class="error" id="nameError"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email" />
+        <small class="error" id="emailError"></small>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required placeholder="Create a password" />
+          <small class="error" id="passwordError"></small>
+        </div>
+
+        <div class="form-group">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" id="confirmPassword" name="confirmPassword" required placeholder="Confirm your password" />
+          <small class="error" id="confirmPasswordError"></small>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Gender</label>
+        <div class="radio-group">
+          <label class="radio-label">
+            <input type="radio" name="gender" value="Male" /> Male
+          </label>
+          <label class="radio-label">
+            <input type="radio" name="gender" value="Female" /> Female
+          </label>
+          <label class="radio-label">
+            <input type="radio" name="gender" value="Other" /> Other
+          </label>
+        </div>
+        <small class="error" id="genderError"></small>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="dob">Date of Birth</label>
+          <input type="date" id="dob" name="dob" required />
+          <small class="error" id="dobError"></small> </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number" />
+          <small class="error" id="phoneError"></small>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="country">Country</label>
+        <select id="country" name="country" required>
+          <option value="">-- Select Country --</option>
+          <option value="USA">USA</option>
+          <option value="Canada">Canada</option>
+          <option value="UK">UK</option>
+          <option value="Australia">Australia</option>
+          <option value="Bangladesh">Bangladesh</option>
+          <option value="India">India</option>
+        </select>
+        <small class="error" id="countryError"></small> </div>
+
+      <div class="form-group checkbox-group">
+        <input type="checkbox" id="terms" name="terms" />
+        <label for="terms">I agree to the <a href="#">Terms and Conditions</a></label>
+        <small class="error" id="termsError"></small>
+      </div>
+
+      <div class="form-group">
+        <button type="submit" class="submit-btn">Register</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="script.js"></script> </body>
+</html>
