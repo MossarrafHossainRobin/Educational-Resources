@@ -44,7 +44,7 @@
       <td>Creating a user registration form with frontend validation and Bootstrap styling.</td>
       <td>
         <a href="./Assignment/" target="_blank" rel="noopener noreferrer">
-          <img src="https://img.shields.io/badge/Download-ZIP-0a66c2?style=for-the-badge&logo=archive&logoColor=white" alt="Download ZIP" />
+          <img src="https://img.shields.io/badge/Download-FILE-0a66c2?style=for-the-badge&logo=archive&logoColor=white" alt="Download FILE" />
         </a>
       </td>
     </tr>
