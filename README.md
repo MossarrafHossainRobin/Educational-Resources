@@ -33,23 +33,24 @@
   </thead>
   <tbody>
     <tr>
-      <td>Assignment</td>
+      <td>📄 Assignment</td>
       <td>Web Programming Assignment</td>
       <td>
-        <img src="https://img.shields.io/badge/HTML-e34c26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML Badge" />
-        <img src="https://img.shields.io/badge/CSS-264de4?style=for-the-badge&logo=css3&logoColor=white" alt="CSS Badge" />
-        <img src="https://img.shields.io/badge/Bootstrap-7952b3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap Badge" />
-        <img src="https://img.shields.io/badge/JavaScript-f7df1e?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge" />
+        <img src="https://img.shields.io/badge/HTML-e34c26?style=flat-square&logo=html5&logoColor=white" alt="HTML" />
+        <img src="https://img.shields.io/badge/CSS-264de4?style=flat-square&logo=css3&logoColor=white" alt="CSS" />
+        <img src="https://img.shields.io/badge/Bootstrap-7952b3?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+        <img src="https://img.shields.io/badge/JavaScript-f7df1e?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
       </td>
       <td>Creating a user registration form with frontend validation and Bootstrap styling.</td>
       <td>
         <a href="./Assignment/" target="_blank" rel="noopener noreferrer">
-          <img src="https://img.shields.io/badge/Download-FILE-0a66c2?style=for-the-badge&logo=archive&logoColor=white" alt="Download FILE" />
+          <img src="https://img.shields.io/badge/Download-ZIP-0a66c2?style=flat-square&logo=archive&logoColor=white" alt="Download ZIP" />
         </a>
       </td>
     </tr>
   </tbody>
 </table>
+
 
 </div>
 
