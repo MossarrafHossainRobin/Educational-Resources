@@ -77,6 +77,9 @@
   <h2>📁 Project Structure</h2>
   <pre>
 educational-resources/
+├── Books/
+    └── <a href="./Books/Book_8th_Edition_Ross,Kurose_Top-Down Approach.pdf"> Computer Networking (TextBook: 8th_Edition_Ross,Kurose_Top-Down Approach) </a>
+    └── <a href="./Books/TextBook_Forouzan_4thEdition.pdf"> Data Communication (TextBook: Forouzan_4thEdition) </a>
 ├── Assignment/
     └── <a href="./Assignment/index.html">index.html</a>
     └── <a href="./Assignment/style.css">style.css</a>
