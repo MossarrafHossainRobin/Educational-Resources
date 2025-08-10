@@ -32,6 +32,19 @@
     </tr>
   </thead>
   <tbody>
+       <tr>
+      <td>Books</td>
+      <td> Cyber Security </td>
+      <td> Textbook </td>
+      <td>
+       <img src="https://img.shields.io/badge/PDF-FF0000?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="PDF" title="PDF" />
+      </td>
+      <td>
+        <a href="https://github.com/MossarrafHossainRobin/Educational-Resources/tree/main/Books" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.shields.io/badge/Download-FILE-0a66c2?style=flat-square&logo=archive&logoColor=white" alt="Download FILE" title="Download FILE" />
+        </a>
+      </td>
+    </tr>
     <tr>
       <td>Assignment</td>
       <td>Web Programming Assignment</td>
